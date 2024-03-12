@@ -1,0 +1,472 @@
+@font-face {
+    font-family: vazir;
+    font-style: normal;
+    font-weight: 500;
+    src: url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.eot);
+    src: url(../vazir-font-v16.1.0/vazir-font-v16.1.0/) format('embedded-opentype'), /* IE6-8 */
+    url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.woff2) format('woff2'), /* FF39+,Chrome36+, opera24+ */
+    url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.woff) format('woff'), /* FF3.6+,IE9, Chrome6+,sof5.1+ */
+    url(../vazir-font-v16.1.0/vazir-font-v16.1.0/Vazir-Medium.ttf) format('truetype');
+}
+
+body {
+    text-align: center;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.divar {
+    display: block;
+    background-color: rgb(59, 59, 59);
+    width: 100%;
+    height: 50px;
+}
+
+.bargasht {
+    float: inline-end;
+    margin: 14px 3% 0px 0px;
+    text-shadow: 0px 0px 1px black;
+    margin-left: 3%;
+    display: inline-block;
+    font-family: vazir;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+.froshgah {
+    float: inline-end;
+    margin-left: 0%;
+    display: inline-block;
+    font-size: 13px;
+    color: white;
+    font-family: vazir;
+}
+
+.search-box {
+    margin-top: 12px;
+    float: inline-end;
+    width: 30%;
+    height: 36%;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(172, 172, 172);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.search-button {
+    width: 24px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-input {
+    font-family: vazir;
+    font-weight: 700;
+    font-size: 11px;
+    color: rgb(255, 255, 255);
+    width: 90%;
+    background-color: transparent;
+    border: none;
+}
+
+.esm {
+    margin: 19px 7px 0px 0px;
+    color: white;
+    font-size: 14px;
+    float: inline-end;
+    font-family: 'vazir';
+}
+
+.aks {
+    border-radius: 5px;
+    margin: 16px;
+    width: 35%;
+}
+
+.list {
+    margin: 1px;
+    margin-right: 4%;
+    float: inline-end;
+    color: white;
+    font-size: 14px;
+    font-family: 'vazir';
+}
+
+.mosh {
+    padding: 1px;
+border-bottom: solid 1px gray;
+font-family: 'vazir';
+margin: 0px;
+margin-right: 5px;
+margin-top: 15px;
+color: white;
+font-size: 10px;
+text-align: right;
+}
+
+.moshq {
+    font-family: 'vazir';
+    margin: 6px;
+    margin-right: 8px;
+    margin-top: 15px;
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    }
+
+
+.divare {
+    height: 645px;
+    margin: 3px;
+    border-radius: 10px;
+    width: 98%;
+    background-color: #434343;
+}
+
+.sef {
+    display: inline-block;
+border-radius: 5px;
+color: white;
+text-decoration: none;
+font-family: 'vazir';
+font-size: 14px;
+background-color: #1a1a1a;
+padding: 2% 40% 2% 40%;
+}
+
+.asl {
+    border-radius: 5px;
+    margin: 15px 0px 0px 5px;
+    width: 97%;
+    background-color: #232222;
+    }
+
+
+
+
+
+@media screen and (min-width:375px) and (max-width:425px) {
+    body {
+        text-align: center;
+        background-color: gray;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .divar {
+        display: block;
+        background-color: rgb(59, 59, 59);
+        width: 100%;
+        height: 50px;
+    }
+    
+    .bargasht {
+        float: inline-end;
+        margin: 14px 3% 0px 0px;
+        text-shadow: 0px 0px 1px black;
+        margin-left: 3%;
+        display: inline-block;
+        font-family: vazir;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .froshgah {
+        float: inline-end;
+        margin-left: 0%;
+        display: inline-block;
+        font-size: 13px;
+        color: white;
+        font-family: vazir;
+    }
+    
+    .search-box {
+        margin-top: 12px;
+        float: inline-end;
+        width: 30%;
+        height: 36%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .search-button {
+        width: 24px;
+        height: 22px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-family: vazir;
+        font-weight: 700;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+
+    .esm {
+        margin: 19px 7px 0px 0px;
+        color: white;
+        font-size: 14px;
+        float: inline-end;
+        font-family: 'vazir';
+    }
+
+    .aks {
+        border-radius: 5px;
+        margin: 16px;
+        width: 35%;
+    }
+
+    .list {
+        margin: 1px;
+        margin-right: 4%;
+        float: inline-end;
+        color: white;
+        font-size: 14px;
+        font-family: 'vazir';
+    }
+
+    .mosh {
+        padding: 1px;
+    border-bottom: solid 1px gray;
+    font-family: 'vazir';
+    margin: 0px;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+    }
+
+    .moshq {
+        font-family: 'vazir';
+        margin: 6px;
+        margin-right: 8px;
+        margin-top: 15px;
+        color: white;
+        font-size: 15px;
+        text-align: right;
+        }
+
+    }
+
+    .divare {
+        height: 645px;
+        margin: 3px;
+        border-radius: 10px;
+        width: 98%;
+        background-color: #434343;
+    }
+
+    .sef {
+        display: inline-block;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: 'vazir';
+    font-size: 14px;
+    background-color: #1a1a1a;
+    padding: 2% 40% 2% 40%;
+    }
+
+    .asl {
+        border-radius: 5px;
+        margin: 15px 0px 0px 5px;
+        width: 97%;
+        background-color: #232222;
+        }
+
+
+@media screen and (min-width:50px) and (max-width:375px) {
+    
+    body {
+        text-align: center;
+        background-color: gray;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .divar {
+        display: block;
+        background-color: rgb(59, 59, 59);
+        width: 100%;
+        height: 50px;
+    }
+    
+    .bargasht {
+        float: inline-end;
+        margin: 14px 3% 0px 0px;
+        text-shadow: 0px 0px 1px black;
+        margin-left: 3%;
+        display: inline-block;
+        font-family: vazir;
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+    }
+    
+    .froshgah {
+        float: inline-end;
+        margin-left: 0%;
+        display: inline-block;
+        font-size: 13px;
+        color: white;
+        font-family: vazir;
+    }
+    
+    .search-box {
+        margin-top: 12px;
+        float: inline-end;
+        width: 30%;
+        height: 36%;
+        padding: 4px;
+        border-radius: 5px;
+        background-color: rgb(172, 172, 172);
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+        direction: rtl;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    
+    .search-button {
+        width: 24px;
+        height: 22px;
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        background-color: rgb(53, 53, 53);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+    
+    .search-input {
+        font-family: vazir;
+        font-weight: 700;
+        font-size: 11px;
+        color: rgb(255, 255, 255);
+        width: 90%;
+        background-color: transparent;
+        border: none;
+    }
+
+    .esm {
+        margin: 20px 3px 0px 0px;
+        color: white;
+        font-size: 12px;
+        float: inline-end;
+        font-family: 'vazir';
+    }
+
+    .aks {
+        border-radius: 5px;
+        margin: 16px;
+        width: 35%;
+    }
+
+    .list {
+        margin: 1px;
+        margin-right: 4%;
+        float: inline-end;
+        color: white;
+        font-size: 14px;
+        font-family: 'vazir';
+    }
+
+    .mosh {
+        padding: 1px;
+    border-bottom: solid 1px gray;
+    font-family: 'vazir';
+    margin: 0px;
+    margin-right: 5px;
+    margin-top: 15px;
+    color: white;
+    font-size: 10px;
+    text-align: right;
+    }
+
+    .moshq {
+        font-family: 'vazir';
+        margin: 6px;
+        margin-right: 8px;
+        margin-top: 15px;
+        color: white;
+        font-size: 15px;
+        text-align: right;
+        }
+
+    }
+
+    .divare {
+        height: 655px;
+        margin: 3px;
+        border-radius: 10px;
+        width: 98%;
+        background-color: #434343;
+    }
+
+    .asl {
+    border-radius: 5px;
+    margin: 15px 0px 0px 5px;
+    width: 97%;
+    background-color: #232222;
+    }
+
+    .ghey {
+    text-shadow: 0px 0px 1px black;
+    font-weight: 700;
+    float: none;
+    color: white;
+    font-family: 'vazir';
+    font-size: 15px;
+    }
+
+    .sef {
+        display: inline-block;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: 'vazir';
+    font-size: 14px;
+    background-color: #1a1a1a;
+    padding: 2% 40% 2% 40%;
+    }
+
+
+        
+                    
+                
